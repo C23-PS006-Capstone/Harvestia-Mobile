@@ -1,2 +1,3 @@
 # Harvestia-Mobile
-Harvestia Mobile Application
+# Background
+
