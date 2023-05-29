@@ -1,3 +1,2 @@
 # Harvestia-Mobile
-# Background
 
