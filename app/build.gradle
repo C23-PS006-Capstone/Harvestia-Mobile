@@ -22,9 +22,13 @@ android {
     }
 
     buildTypes {
+        debug{
+            buildConfigField("String", "API_URL","\"http://34.101.69.33:5000\"")
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "API_URL","\"http://34.101.69.33:5000\"")
         }
     }
     compileOptions {
@@ -35,6 +39,7 @@ android {
         jvmTarget = '1.8'
     }
     buildFeatures{
+        dataBinding true
         viewBinding = true
         mlModelBinding = true
     }
@@ -74,6 +79,10 @@ dependencies {
     // Rx Java
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
     implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
+
+    //api
+    implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.5"
+
 
     // Location
     implementation 'com.github.delight-im:Android-SimpleLocation:v1.1.0'
