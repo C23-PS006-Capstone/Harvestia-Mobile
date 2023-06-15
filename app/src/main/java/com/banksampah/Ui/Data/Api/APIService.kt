@@ -5,7 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 
-class APIService {
+interface APIService {
 
     @GET("/articles")
     fun getArticles(
