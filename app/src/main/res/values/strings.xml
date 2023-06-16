@@ -1,0 +1,116 @@
+<resources>
+    <string name="saldo_amp_riwayat_anda" translatable="false"><![CDATA[Saldo & Riwayat Anda]]></string>
+    <string name="menu_kategori" translatable="false">Menu Kategori</string>
+    <string name="msgMain" translatable="false">Harvestia hadir untuk memberikan solusi atas kekhawatiran Anda dalam mengidentifikasi penyakit yang dapat mempengaruhi pertumbuhan tanaman padi.</string>
+    <string name="txtMain" translatable="false">Temukan penyakitnya dan tingkatkan hasil panenmu!</string>
+    <string name="welcome" translatable="false">Welcome</string>
+    <string name="artikel" translatable="false">Artikel</string>
+    <string name="isiData" translatable="false">Mohon isi data dibawah ini dengan benar</string>
+    <string name="txtNama" translatable="false">Nama Pengguna</string>
+    <string name="isiNama" translatable="false">Masukan nama lengkap</string>
+    <string name="txtKategori" translatable="false">Kategori Sampah</string>
+    <string name="txtBerat" translatable="false">Berat (Kg)</string>
+    <string name="txtNilai" translatable="false">5 Kg</string>
+    <string name="txtHarga" translatable="false">Harga (per Kg)</string>
+    <string name="txtTotal">Rp. 1500/Kg</string>
+    <string name="txtTanggal">Tanggal Penjemputan</string>
+    <string name="isiTanggal">Masukan tanggal</string>
+    <string name="txtAlamat">Alamat</string>
+    <string name="isiAlamat">Masukan alamat</string>
+    <string name="txtOpsional">Catatan Tambahan (Opsional)</string>
+    <string name="isiOpsional">Masukan catatan tambahan anda</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="bank_sampah">Bank Sampah</string>
+    <string name="msgWelcome">Selamat datang di Aplikasi Harvestia</string>
+    <string name="login">Login</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_register">Not registered yet?</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="already_account">Already Account?</string>
+    <string name="deskripsi_jenis">Sampah merupakan hasil produksi manusia yang tidak akan pernah luput dari kehidupan sehari-hari. Lalu, jenis-jenis sampah apa yang biasanya kita hasilkan? Yuk, kenali di sini.\n\nSampah jika dibiarkan saja akan mengganggu kebersihan lingkungan secara umum. Sampah dapat dibedakan menjadi dua macam, yaitu:</string>
+    <string name="anorganik"><b>1. Sampah Padat (Anorganik)</b>\n\nSampah anorganik adalah sampah yang terdiri atas bahan-bahan anorganik. Contoh bahan-bahan anorganik adalah bahan logam, plastik, kaca, karet, dan kaleng. Sifat sampah anorganik adalah tahan lama dan sukar membusuk.\n\nSampah ini tidak mudah diuraikan oleh mikroorganisme tanah. Apabila dibuang sembarangan, sampah anorganik dapat menimbulkan pencemaran tanah.</string>
+    <string name="organik"><b>2. Sampah Basah (Organik)</b>\n\nSampah organik adalah sampah yang terdiri atas bahan-bahan organik. Sifat sampah organik adalah tidak tahan lama dan cepat membusuk. Biasanya sampah jenis ini berasal dari makhluk hidup. Contohnya adalah sayur-sayuran, buah-buah yang membusuk, sisa nasi, daun, dan sebagainya.\n\nSampah organik mudah diuraikan mikroorganisme tanah. Hanya saja jenis sampah akan menimbulkan bau kurang sedap jika tidak dikelola dengan baik.</string>
+    <string name="upload_by">Upload By :</string>
+    <string name="date">Date :</string>
+    <string name="date_upload">Date Upload</string>
+    <string name="Date">Tanggal</string>
+    <string name="image">Gambar</string>
+    <string name="singup">Singup</string>
+    <string name="detail_row_photo">Detail row photo</string>
+    <string name="welcome_photo">Welcome Photo</string>
+    <string name="title_welcome">Welcome to Harvestia Apps</string>
+    <string name="detail_photo">Detail Photo</string>
+    <string name="detail_post_date">Post Date</string>
+    <string name="samplle">Tanggal</string>
+    <string name="detail_descripton">Description</string>
+    <string name="upload_name">Upload Name</string>
+    <string name="title_login_page">Hi, Welcome to Harvestia!</string>
+    <string name="message_loading">Masuk Akun</string>
+    <string name="singup_message">Silahkan isi data terlebih dahulu</string>
+    <string name="Singup_singup">Singup</string>
+    <string name="newstory_photo">NewStory Photo</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="gallery">Gallery</string>
+    <string name="newstory_description">Description</string>
+    <string name="post">Post</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_nama">Nama</string>
+    <string name="location">Location</string>
+    <string name="email_login">\"Please enter your Email \"</string>
+    <string name="password_login">\"Please enter your Password \"</string>
+    <string name="login_failed">\"Login Failed, Please Check your data \"</string>
+    <string name="title_sampah">Jenis Sampah</string>
+    <string name="Camera">Scan</string>
+    <string name="History">History</string>
+    <string name="saldo_dan_historys">d</string>
+    <string name="jemput_sekarang">Jemput Sekarang</string>
+    <string name="saldo_anda">Saldo Anda :</string>
+    <string name="Empty">Empty</string>
+
+    <string name="app_name">Harvestia</string>
+    <string name="iconRegister">Logo di register</string>
+    <string name="registerDescription">Silahkan masukkan data akun kamu</string>
+    <string name="noData">No data found</string>
+    <string name="home">Harvestia</string>
+    <string name="content">This image is part of the article</string>
+
+    <string name="email">Masukan email kamu</string>
+
+    <string name="password">Masukan password kamu</string>
+    <string name="passwordVisible">Lihat Password</string>
+
+    <string name="tvLogin">Masuk Akun</string>
+    <string name="login_button">Login</string>
+    <string name="registerHeader">Daftar Akun</string>
+    <string name="register">Belum punya akun?</string>
+    <string name="register_button">Daftar</string>
+    <string name="registerCreate">Buat Akun</string>
+
+    <string name="name">Masukan nama kamu</string>
+    <string name="titleArtikel">Judul Artikel</string>
+    <string name="empty">Empty</string>
+    <string name="calculator_history">Calculator History</string>
+    <string name="predic">deskripsi</string>
+    <string name="saldo_dan_history">History</string>
+    <string name="lokasi">Scan</string>
+    <string name="jenis_sampah">Kalkulator</string>
+    <string name="jemput_sampah">Artikel</string>
+    <string name="descArtikel">Deskripsi</string>
+    <string name="hasil">1.bacterial_leaf_blight 2.bacterial_leaf_streak 3.bacterial_panicle_blight 4.blast 5.brown_spot 6.dead_heart 7.downy_mildew 8.hispa 9.normal 10.tungro\\</string>
+
+    <string-array name="kategori_sampah">
+        <item>Plastik</item>
+        <item>Logam</item>
+        <item>Kertas</item>
+        <item>Karet</item>
+    </string-array>
+    <string-array name="harga_perkilo">
+        <item>1500</item>
+        <item>3000</item>
+        <item>800</item>
+        <item>1000</item>
+    </string-array>
+</resources>

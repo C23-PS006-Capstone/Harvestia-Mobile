@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.UI.Preview.previewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_detail_photo"
+                android:layout_width="match_parent"
+                android:layout_height="441dp"
+                android:contentDescription="@string/detail_photo"
+                android:transitionName="@string/detail_photo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/tv_label_Disease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Disease : "
+                android:textColor="@color/teal_200"
+                android:transitionName="@string/name" />
+
+            <TextView
+                android:id="@+id/tv_detail_disease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:transitionName="disease"
+                tools:text="disease" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/hasil"
+                android:textColor="@color/black"
+                android:transitionName="@string/name" />
+
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gallery" />
+
+            <Button
+                android:id="@+id/btn_take_pct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/predic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
