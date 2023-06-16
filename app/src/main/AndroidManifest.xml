@@ -30,7 +30,7 @@
             android:name=".Ui.UI.Camera.cameraActivity"
             android:exported="false" />
         <activity
-            android:name=".Ui.UI.sampah.tSampahActivity"
+            android:name=".Ui.UI.artikel.ArtikelActivity"
             android:exported="false"
             android:label="@string/title_sampah">
             <meta-data
@@ -68,7 +68,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Ui.UI.Post.pickUpActivity"
+            android:name=".Ui.UI.Kalkulator.kalkulatorActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

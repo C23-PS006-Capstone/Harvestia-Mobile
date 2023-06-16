@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">BankSampah</string>
     <string name="saldo_amp_riwayat_anda" translatable="false"><![CDATA[Saldo & Riwayat Anda]]></string>
     <string name="menu_kategori" translatable="false">Menu Kategori</string>
     <string name="msgMain" translatable="false">Aplikasi Bank Sampah adalah solusi untuk menyelesaikan masalah sosial tentang kebersihan lingkungan.</string>
@@ -36,7 +35,6 @@
     <string name="upload_by">Upload By :</string>
     <string name="date">Date :</string>
     <string name="date_upload">Date Upload</string>
-    <string name="name">Name</string>
     <string name="Date">Tanggal</string>
     <string name="image">Gambar</string>
     <string name="singup">Singup</string>
@@ -50,8 +48,6 @@
     <string name="upload_name">Upload Name</string>
     <string name="title_login_page">Enjoy Story</string>
     <string name="message_loading">Selamat membaca!</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
     <string name="singup_message">Silahkan isi data terlebih dahulu</string>
     <string name="Singup_singup">Singup</string>
     <string name="newstory_photo">NewStory Photo</string>
@@ -73,6 +69,30 @@
     <string name="jemput_sekarang">Jemput Sekarang</string>
     <string name="saldo_anda">Saldo Anda :</string>
     <string name="Empty">Empty</string>
+
+    <string name="app_name">Harvestia</string>
+    <string name="iconRegister">Logo di register</string>
+    <string name="registerDescription">Silahkan masukkan data akun kamu</string>
+    <string name="noData">No data found</string>
+    <string name="home">Harvestia</string>
+    <string name="content">This image is part of the article</string>
+
+    <string name="email">Masukan email kamu</string>
+
+    <string name="password">Masukan password kamu</string>
+    <string name="passwordVisible">Lihat Password</string>
+
+    <string name="tvLogin">Masuk Akun</string>
+    <string name="login_button">Login</string>
+    <string name="registerHeader">Daftar Akun</string>
+    <string name="register">Belum punya akun?</string>
+    <string name="register_button">Daftar</string>
+    <string name="registerCreate">Buat Akun</string>
+
+    <string name="name">Masukan nama kamu</string>
+    <string name="titleArtikel">Judul Artikel</string>
+    <string name="empty">Empty</string>
+    <string name="calculator_history">Calculator History</string>
 
     <string-array name="kategori_sampah">
         <item>Plastik</item>

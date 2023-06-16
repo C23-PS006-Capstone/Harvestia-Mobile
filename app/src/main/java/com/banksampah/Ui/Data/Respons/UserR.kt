@@ -11,11 +11,10 @@ import kotlinx.android.parcel.Parcelize
 data class UserR(
     @PrimaryKey(autoGenerate = true)
     var uid: Int = 0,
-    @ColumnInfo(name = "nama_pengguna") var username: String,
-    @ColumnInfo(name = "jenis_sampah") var type: String,
     @ColumnInfo(name = "berat") var weight: Int = 0,
     @ColumnInfo(name = "harga") var price: Int = 0,
-    @ColumnInfo(name = "tanggal") var date: String,
-    @ColumnInfo(name = "alamat") var address: String,
-    @ColumnInfo(name = "catatan") var notes: String
+    val luasTanah: Int,
+    val tanaman: String,
+    val jenisPupuk: String,
+    val _username: String
 ) : Parcelable

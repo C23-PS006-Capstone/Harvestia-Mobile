@@ -1,5 +1,6 @@
 package com.banksampah.Ui.Data.Api
 
+import com.banksampah.Ui.Data.DataLocal.ArticleResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

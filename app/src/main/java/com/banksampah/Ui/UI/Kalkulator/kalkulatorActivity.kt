@@ -1,4 +1,4 @@
-package com.banksampah.Ui.UI.Post
+package com.banksampah.Ui.UI.Kalkulator
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -19,9 +19,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 
-class pickUpActivity : AppCompatActivity() {
+class kalkulatorActivity : AppCompatActivity() {
 
-    lateinit var _pickupVM: pickUpViewModel
+    lateinit var _pickupVM: kalkulatorViewModel
     lateinit var _name: String
     lateinit var _date: String
     lateinit var _address: String
@@ -47,8 +47,8 @@ class pickUpActivity : AppCompatActivity() {
 
         _category = resources.getStringArray(R.array.kategori_sampah)
         _price = resources.getStringArray(R.array.harga_perkilo)
-        _pickupVM = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(this.application)).get(pickUpViewModel::class.java)
-        val languageA = ArrayAdapter(this@pickUpActivity, android.R.layout.simple_list_item_1, _category)
+        _pickupVM = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(this.application)).get(kalkulatorViewModel::class.java)
+        val languageA = ArrayAdapter(this@kalkulatorActivity, android.R.layout.simple_list_item_1, _category)
         languageA.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spKategori.adapter = languageA
 
@@ -101,7 +101,7 @@ class pickUpActivity : AppCompatActivity() {
                     ed_pickup_dade.setText(simpleDateFormat.format(pickupDate.time))
                 }
             DatePickerDialog(
-                this@pickUpActivity, date,
+                this@kalkulatorActivity, date,
                 pickupDate[Calendar.YEAR],
                 pickupDate[Calendar.MONTH],
                 pickupDate[Calendar.DAY_OF_MONTH]
@@ -115,7 +115,7 @@ class pickUpActivity : AppCompatActivity() {
             _note = ed_pickup_detail.text.toString()
             if (_name.isEmpty() or _date.isEmpty() or _address.isEmpty() or (_category.size == 0) or (countWeigh == 0) or (countPrice == 0)) {
                 Toast.makeText(
-                    this@pickUpActivity,
+                    this@kalkulatorActivity,
                     "Data tidak boleh ada yang kosong!",
                     Toast.LENGTH_SHORT
                 ).show()
@@ -124,13 +124,9 @@ class pickUpActivity : AppCompatActivity() {
                     _name,
                     _trashCategory,
                     countWeigh,
-                    countPrice,
-                    _date,
-                    _address,
-                    _note
                 )
                 Toast.makeText(
-                    this@pickUpActivity,
+                    this@kalkulatorActivity,
                     "Pesanan Anda sedang diproses, cek di menu riwayat",
                     Toast.LENGTH_SHORT
                 ).show()

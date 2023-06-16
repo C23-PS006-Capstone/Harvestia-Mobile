@@ -12,9 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.banksampah.R
 import com.banksampah.Ui.UI.History.HistoryActivity
-import com.banksampah.Ui.UI.Post.pickUpActivity
-import com.banksampah.Ui.UI.login.LoginActivity
-import com.banksampah.Ui.UI.sampah.tSampahActivity
+import com.banksampah.Ui.UI.Kalkulator.kalkulatorActivity
+import com.banksampah.Ui.UI.artikel.ArtikelActivity
 import com.banksampah.Ui.UI.welcome.WelcomeActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
@@ -79,12 +78,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun setInitLayout() {
         cvPickup.setOnClickListener { v: View? ->
-            val intent = Intent(this@MainActivity, pickUpActivity::class.java)
+            val intent = Intent(this@MainActivity, kalkulatorActivity::class.java)
             startActivity(intent)
         }
 
         cvCatagory.setOnClickListener { v: View? ->
-            val intent = Intent(this@MainActivity, tSampahActivity::class.java)
+            val intent = Intent(this@MainActivity, ArtikelActivity::class.java)
             startActivity(intent)
         }
 
